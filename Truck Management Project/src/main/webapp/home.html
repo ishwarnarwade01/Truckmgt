@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truck Management System</title>
+    <style>
+        /* General Styles */
+        body {
+            background-color: aquamarine;
+            font-family: Arial, sans-serif;
+            background-image: url('https://www.example.com/your-image.jpg'); /* Replace with your desired background image */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Centered content */
+        center {
+            margin-top: 100px;
+        }
+
+        /* Button Styles */
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 40px;
+            border: none;
+            border-radius: 8px;
+            font-size: 20px; /* Larger font size */
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s, transform 0.3s;
+            width: 220px;
+            height: 80px;
+            margin: 10px;
+        }
+
+        button img {
+            margin-right: 15px;
+            width: 40px; /* Default icon size */
+            height: 40px;
+            transition: transform 0.3s;
+        }
+
+        /* Enlarge button and icon on hover */
+        button:hover {
+            background-color: #45a049;
+            transform: scale(1.05); /* Slightly enlarge the button */
+        }
+
+        button:hover img {
+            transform: scale(1.4); /* Enlarge the icon when button is hovered */
+        }
+
+        /* Side-by-side button container */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px; /* Add space between the buttons */
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Truck Management System</h1>
+        <p>Efficiently Manage Your Fleet of Trucks</p>
+    </header>
+
+    <!-- Main Content Section with Buttons -->
+    <center>
+        <div class="button-container">
+            <!-- Add Truck Button -->
+            <a href="AddTruck.html">
+                <button>
+                    <img src="https://img.icons8.com/ios-filled/50/000000/truck.png" alt="Add Truck"/>
+                    Add Truck
+                </button>
+            </a>
+
+            <!-- Display Truck Button -->
+            <a href="display">
+                <button>
+                    <img src="https://img.icons8.com/ios-filled/50/000000/truck.png" alt="Display Truck"/>
+                    Display Truck
+                </button>
+            </a>
+        </div>
+    </center>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Truck Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
